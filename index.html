@@ -227,9 +227,6 @@
             <div class="col-12">
                 <!-- opoio kai na einai to megethos ths othonhs tha to katalambanei oloklhro-->
                 <div id="mycarousel" class="carousel slide" data-ride="carousel">
-
-
-
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <img src="images/dark85.jpg" alt="85% DARK CHOCOLATE">
@@ -279,6 +276,14 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
+                    <div class="btn-group" id="carouselButtons">
+                        <button class="btn btn-danger btn-sm" id="carousel-pause">
+                          <span class="fa fa-pause"></span>
+                        </button>
+                        <button class="btn btn-danger btn-sm" id="carousel-play">
+                          <span class="fa fa-play"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -470,6 +475,7 @@
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
     <!-- <script> //this was for the tooltip in the reserve button at the top of the page
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()

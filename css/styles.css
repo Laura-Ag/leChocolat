@@ -201,11 +201,20 @@ background-color: #f7f7f7; }
 .card__picture--1 {
     background-image: linear-gradient(to right bottom, #418cee, #683418), url('../../images/hazelnut.jpg'); 
 }
+.card__picture--11 {
+    background-image: linear-gradient(to right bottom, #418cee, #683418), url('../../images/justHazelnut.png'); 
+}
 .card__picture--2 {
     background-image: linear-gradient(to right bottom, #000428, #004e92), url('../../images/cinammon.png'); 
 }
+.card__picture--22 {
+    background-image: linear-gradient(to right bottom, #000428, #004e92), url('../../images/justCinammon.png'); 
+}
 .card__picture--3 {
-    background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url('../../images/caramel.jpg'); 
+    background-image: linear-gradient(to right bottom, #418cee, #683418), url('../../images/caramel.jpg'); 
+}
+.card__picture--33 {
+    background-image: linear-gradient(to right bottom, #418cee, #683418), url('../../images/justCaramel.png'); 
 }
 .card__heading {
     font-size: 1.8rem;
@@ -269,7 +278,7 @@ background-color: #f7f7f7; }
     font-weight: 100; 
 }
 
-#steps {
+.steps {
     color:white;
     font-size: 16px;
     margin-bottom: 3%;

@@ -6,18 +6,29 @@
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    
+    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin menu.html -d dist --htmlmin -o dist/menu.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "build": "npm run clean && npm run copyfonts && npm run usemin"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.2.2"
+    "cssmin": "^0.4.3",
+    "imagemin": "^7.0.1",
+    "imagemin-cli": "^6.0.0",
+    "lite-server": "^2.6.1",
+    "rimraf": "^3.0.2",
+    "uglifyjs": "^2.4.11"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
+    "save-dev": "0.0.1-security",
     "tether": "^1.4.7"
   }
 }

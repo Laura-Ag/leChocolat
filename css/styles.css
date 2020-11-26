@@ -102,7 +102,7 @@ tr:hover {
 
 /* Section - Parallax */
 /**************************/
-#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url('../../images/chocolate.png'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url('../images/chocolate.png'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
 
 /* Extras */
 /**************************/
@@ -199,22 +199,22 @@ background-color: #f7f7f7; }
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); 
 }
 .card__picture--1 {
-    background-image: linear-gradient(to right bottom, #418cee, #683418), url('../../images/hazelnut.jpg'); 
+    background-image: linear-gradient(to right bottom, #418cee, #683418), url('../images/hazelnut.jpg'); 
 }
 .card__picture--11 {
-    background-image: linear-gradient(to right bottom, #418cee, #683418), url('../../images/justHazelnut.png'); 
+    background-image: linear-gradient(to right bottom, #418cee, #683418), url('../images/justHazelnut.png'); 
 }
 .card__picture--2 {
-    background-image: linear-gradient(to right bottom, #000428, #004e92), url('../../images/cinammon.png'); 
+    background-image: linear-gradient(to right bottom, #000428, #004e92), url('../images/cinammon.png'); 
 }
 .card__picture--22 {
-    background-image: linear-gradient(to right bottom, #000428, #004e92), url('../../images/justCinammon.png'); 
+    background-image: linear-gradient(to right bottom, #000428, #004e92), url('../images/justCinammon.png'); 
 }
 .card__picture--3 {
-    background-image: linear-gradient(to right bottom, #418cee, #683418), url('../../images/caramel.jpg'); 
+    background-image: linear-gradient(to right bottom, #418cee, #683418), url('../images/caramel.jpg'); 
 }
 .card__picture--33 {
-    background-image: linear-gradient(to right bottom, #418cee, #683418), url('../../images/justCaramel.png'); 
+    background-image: linear-gradient(to right bottom, #418cee, #683418), url('../images/justCaramel.png'); 
 }
 .card__heading {
     font-size: 1.8rem;
